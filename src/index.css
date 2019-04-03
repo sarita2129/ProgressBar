@@ -126,3 +126,15 @@ h1{
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+@media screen and (max-width: 480px) {
+  h1{
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+  }
+  .col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 100%;
+}
+}
