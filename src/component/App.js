@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ProgressBar from './progressbar';
 import Button from './button';
 import SelectBar from './selectbar';
-import axios from 'axios';
 
 class App extends Component {
   constructor(){
@@ -12,7 +11,6 @@ class App extends Component {
       buttons:[],
       limit:0,
       percent:[],
-      style:"{background-color : green,width:50%}",
       updbar:0
     }
     const fetchapi = () => {
