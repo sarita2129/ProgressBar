@@ -6,8 +6,9 @@
 * CSS
 * bootstrap
 
-git clone https://github.com/sarita2129/ProgressBar.git
-npm init
+# Steps to clone
+* git clone https://github.com/sarita2129/ProgressBar.git
+* npm init
 
 # URL
 
