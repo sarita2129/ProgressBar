@@ -59,7 +59,7 @@ class App extends Component {
         <ProgressBar percent={this.state.percent}/>
         <SelectBar bars={this.state.bars} onChange={(b) => this.handleSelect(b)}/>
         <Button buttons={this.state.buttons} onClick={(p) => this.handleClick(p)}/>
-        <button className="btnnew btn-primary" onClick={() => this.loaddata()}>Reset</button>
+        <button id="reset" className="btnnew btn-primary" onClick={() => this.loaddata()}>Reset</button>
       </div>
     );
   }
